@@ -1,0 +1,40 @@
+.grid-container {
+    width: 500px;
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'links rechts'
+    'map map';
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .links {
+    grid-area: links;
+  }
+
+  .rechts {
+    grid-area: rechts;
+  }
+
+  .rechts > img {
+    max-width: 100%;
+}
+
+  .map {
+    grid-area: map;
+    width: 100%;
+  }
+
+  .map > img {
+    max-width: 100%;
+}
+
+.feestfolder > p {
+    color: #FFF;
+    display: inline-block;
+    background-color: #3cbb53;
+    padding: 0.3em 0.7em;
+}
