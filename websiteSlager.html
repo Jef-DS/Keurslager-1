@@ -1,64 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        background-image: url('img/PIGGY.jpg');
-        background-repeat: no-repeat;
-    }
-    #header{
-        width: 100%;
-        display: grid;
-        height: 250px;
-        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    }
-
-    .logo > img {
-        width: 150px;
-        padding: 2px;
-        float: left;
-        margin-left: 200px;
-        margin-top: 20px;
-    }
-
-    .nav-bar {
-        float: left;
-        background-color: grey;
-        margin-top: 150px;
-        margin-left: 60px;
-        margin-right: 300px;
-        height: 50px;
-        width: 600px;
-        font-size: 25px;
-    }
-
-    .nav-bar > a{
-        color: white;
-        text-decoration: none;
-    }
-
-    .search-area {
-        width: 250px;
-        float:right;
-        margin-top: -50px;
-        margin-right: 50px;
-    }
-
-    .search {
-        margin-top: -50px;
-        margin-bottom: -5px;
-        width: 20px;
-        height: 20px;
-    }
-
-
-
-</style>
 <body>
     <header id="header">
         <div>
@@ -77,5 +26,64 @@
         </div>
     </div>
     </header>
+    <!-- main-code Joris -->
+    <main>
+        <div class="grid-container">
+            <div class="header">
+                <h2>GOEMINNE</h2>
+            </div>
+            <div class="links">
+                <div class="feestfolder">
+                    <p>FEESTFOLDER</p>
+                </div>
+                <div class="contact-row">
+                    <div class="label-above">Adres:&nbsp;</div>
+                    <div class="contact-details">
+                        <div class="street-block">
+                            <div class="thoroughfare">Kapelstraat 185</div>
+                        </div>
+                        <div class="addressfield-container-inline locality-block country-BE">
+                            <span class="postal-code">2660</span>&nbsp;&nbsp;
+                            <span class="locality">Hoboken</span>
+                        </div>
+                        <span class="country">Belgium</span>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <div class="label-above">Telefoon:&nbsp;</div>
+                    <div class="contact-details">03 827 58 22</div>
+                </div>
+                <div class="contact-row">
+                    <div class="label-above">Fax:&nbsp;</div>
+                    <div class="contact-details">03 830 25 43</div>
+                </div>
+                <div class="contact-row">
+                    <div class="label-above">e-mail:&nbsp;</div>
+                    <div class="contact-details">
+                        <a href="mailto:slagerij.goeminne@skynet.be">slagerij.goeminne@skynet.be</a>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <div class="label-above">Website:&nbsp;</div>
+                    <div class="contact-details">
+                        <a href="http://www.keurslager-goeminne.be">Keurslager Goeminne</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rechts">
+                <img src="./img/goeminne.jpg" />
+            </div>
+            <div class="map">
+                <img src="./img/map.png" />
+            </div>
+        </div>
+    </main>
+    <!-- einde main-code Joris -->
 </body>
-</ht
+
+</html>
+
+<!-- body {
+    background-image: url('img/PIGGY.jpg');
+    background-repeat: no-repeat;
+} -->
